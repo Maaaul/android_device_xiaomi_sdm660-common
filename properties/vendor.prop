@@ -168,31 +168,9 @@ persist.vendor.delta_time.enable=true
 qemu.hw.mainkeys=0
 ro.com.android.dataroaming=false
 
-# QCOM
-ro.soc.manufacturer=QTI
-
-# QSPM
-ro.vendor.qspm.enable=true
-
-# QSYSD
-persist.vendor.qcomsysd.enabled=1
-
-# RIL
-persist.radio.multisim.config=dsds
-persist.vendor.radio.add_power_save=1
-persist.vendor.radio.apm_sim_not_pwdn=1
-persist.vendor.radio.custom_ecc=1
-persist.vendor.radio.enableadvancedscan=true
-persist.vendor.radio.procedure_bytes=SKIP
-persist.vendor.radio.sib16_support=1
-persist.vendor.rcs.singlereg.feature=1
-ro.vendor.radio.build_profile=miui
-ro.vendor.radio.build_region=global
-
-# ScrollOptimizer
+# Perf
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
-vendor.perf.framepacing.enable=1
 
 # QCOM
 persist.vendor.qcomsysd.enabled=1
