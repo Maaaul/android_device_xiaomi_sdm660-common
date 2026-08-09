@@ -18,6 +18,9 @@ ro.bluetooth.wipower=false
 ro.surface_flinger.supports_background_blur=1
 ro.surface_flinger.blur_scale=0.50
 
+# App
+ro.launcher.blur.appLaunch=0
+
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam
 camera.aux.packagelist=com.google.android.GoogleCamera,com.android.camera,org.codeaurora.snapcam
